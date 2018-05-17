@@ -27,7 +27,6 @@
 % with support from the National Institute of Neurological Disorders and Stroke (NINDS) 
 %     under Grant NIH/NINDS U01-NS090405 and NIH/NINDS U01-NS090408.
 %              Wanchat Theeranaew
-%              Farhad Kaffashi
 %--------------------------------------------------------------------------
 function varargout = ChannelDisplaySetting(varargin)
 % CHANNELDISPLAYSETTING MATLAB code for ChannelDisplaySetting.fig

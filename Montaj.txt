@@ -1,0 +1,31 @@
+Cz Ref
+f3 f4 c3 c4 p3 p4 fz pz
+cz cz cz cz cz cz cz cz
+
+Pz Ref
+f3 f4 c3 c4 p3 p4 fz cz
+pz pz pz pz pz pz pz pz
+
+Center
+fz cz
+cz pz
+
+M1 (M3)
+fp1 f7 t7 p7 fp2 f8 t8 p8 fp1 f3 c3 p3 fp2 f4 c4 p4 fz cz
+f7 t7 p7 o1 f8 t8 p8 o2 f3 c3 p3 o1 f4 c4 p4 o2 cz pz
+
+M2
+fp1 f7 t7 p7 fp2 f8 t8 p8 f3 c3 p3 o1 f4 c4 p4 o2 fz cz pz
+a1 a1 a1 a1 a2 a2 a2 a2 a1 a1 a1 a1 a2 a2 a2 a2 a2 a2 a2
+
+M4
+fp1 fp2 f7 f8 t7 t8 p7 p8 f3 f4 c3 c4 p3 p4 o1 o2 a1 a2 ft9 ft10
+cz cz cz cz cz cz cz cz cz cz cz cz cz cz cz cz cz cz cz cz
+
+M5
+f7 f3 fz f4 a1 t7 c3 cz c4 t8 p7 p3 pz p4 fp1 fp2 o1 o2 ft9
+f3 fz f4 f8 t7 c3 cz c4 t8 a2 p3 pz p4 p8 a1 a2 a1 a2 ft10
+
+M6
+fp1 f7 ft9 t7 p7 fp2 f8 ft10 t8 p8 ft9 a1 fp1 f3 c3 fp2 f4 c4
+f7 ft9 t7 p7 o1 f8 ft10 t8 p8 o2 ft10 a2 f3 c3 p3 f4 c4 p4

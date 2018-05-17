@@ -1,0 +1,116 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Yodyood\Dropbox\Wanchat\[GUI]\EDF_Viewer[Standalone][20150828]\EDF_Viewer.prj" location="C:\Users\Yodyood\Dropbox\Wanchat\[GUI]\EDF_Viewer[Standalone][20150828]" name="EDF_Viewer" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>EDF_Viewer</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\EDF_Viewer\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\EDF_Viewer\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\EDF_Viewer\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\EDF_Viewer\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.required.mcr.products />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\EDF_Viewer.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\EDF_Viewer\for_testing" name="readme.txt" optional="true">C:\Users\Yodyood\Dropbox\Wanchat\[GUI]\EDF_Viewer[Standalone][20150828]\EDF_Viewer\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\EDF_Viewer\for_testing" name="EDF_Viewer.exe" optional="false">C:\Users\Yodyood\Dropbox\Wanchat\[GUI]\EDF_Viewer[Standalone][20150828]\EDF_Viewer\for_testing\EDF_Viewer.exe</file>
+      <file location="${PROJECT_ROOT}\EDF_Viewer\for_testing" name="splash.png" optional="false">C:\Users\Yodyood\Dropbox\Wanchat\[GUI]\EDF_Viewer[Standalone][20150828]\EDF_Viewer\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files (x86)\MATLAB\R2015b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

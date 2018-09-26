@@ -52,7 +52,7 @@ function varargout = EDF_Viewer(varargin)
    % See also: GUIDE, GUIDATA, GUIHANDLES
    % Edit the above text to modify the response to help EDF_Viewer
 
-   % Last Modified by GUIDE v2.5 19-Feb-2018 12:32:01
+   % Last Modified by GUIDE v2.5 26-Sep-2018 12:43:33
 
    % Begin initialization code - DO NOT EDIT
    gui_Singleton = 1;
@@ -1149,3 +1149,14 @@ function setSliderPlot(handles)
 
 
 % --------------------------------------------------------------------
+
+
+% --------------------------------------------------------------------
+function menuExit_Callback(hObject, eventdata, handles)
+   choice = questdlg('Would you like to close the program?', ...
+   'Confirmation', ...
+   'Yes','No','Cancel','No');
+
+   if(strcmp(choice,'Yes'))
+      close;
+   end;
